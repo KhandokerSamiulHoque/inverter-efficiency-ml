@@ -1,0 +1,66 @@
+{
+  "records": 3262,
+  "median_efficiency": 0.9606391151194732,
+  "raw_parameters": [
+    "Vac",
+    "Pso",
+    "Paco",
+    "Pdco",
+    "Vdco",
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "Pnt",
+    "Vdcmax",
+    "Idcmax",
+    "Mppt_low",
+    "Mppt_high"
+  ],
+  "best_by_feature_set": [
+    {
+      "feature_set": "Raw Sandia parameters only",
+      "model": "Extra trees",
+      "cv_accuracy_mean": 0.9736360732438298,
+      "cv_accuracy_std": 0.004770266701788795,
+      "cv_f1_mean": 0.9736085273253808,
+      "cv_f1_std": 0.004857405638681177,
+      "cv_auc_mean": 0.997638613463093,
+      "cv_auc_std": 0.00109275844514667
+    },
+    {
+      "feature_set": "Derived components included",
+      "model": "Random forest",
+      "cv_accuracy_mean": 0.9975474215278235,
+      "cv_accuracy_std": 0.002784825160288233,
+      "cv_f1_mean": 0.9975421819023559,
+      "cv_f1_std": 0.0027945033136009567,
+      "cv_auc_mean": 0.9999924839403214,
+      "cv_auc_std": 1.0291808687197331e-05
+    },
+    {
+      "feature_set": "Direct target included",
+      "model": "Random forest",
+      "cv_accuracy_mean": 0.9993874425727413,
+      "cv_accuracy_std": 0.0013697200474730785,
+      "cv_f1_mean": 0.999390243902439,
+      "cv_f1_std": 0.0013634560838413363,
+      "cv_auc_mean": 0.9999962477251835,
+      "cv_auc_std": 8.390341560162538e-06
+    }
+  ],
+  "raw_feature_best": {
+    "feature_set": "Raw Sandia parameters only",
+    "model": "Extra trees",
+    "cv_accuracy_mean": 0.9736360732438298,
+    "cv_accuracy_std": 0.004770266701788795,
+    "cv_f1_mean": 0.9736085273253808,
+    "cv_f1_std": 0.004857405638681177,
+    "cv_auc_mean": 0.997638613463093,
+    "cv_auc_std": 0.00109275844514667
+  },
+  "limitations": [
+    "The target is a deterministic function of public Sandia-model parameters, not an independent UL 1741 pass/fail outcome.",
+    "CEC database inclusion is not equivalent to NRTL certification status, and the analysis must not be used to issue conformity decisions."
+  ]
+}

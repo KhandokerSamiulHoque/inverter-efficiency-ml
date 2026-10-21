@@ -1,0 +1,20 @@
+{
+  "title": "Machine Learning for Inverter Efficiency with a Data-Leakage Audit",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Hoque, Khandoker Samiul",
+      "orcid": "0009-0008-0756-2395"
+    }
+  ],
+  "description": "Leakage-audited machine learning models that predict inverter efficiency from the public California Energy Commission inverter database and Sandia model parameters (pvlib). First stage of a project on ML for inverter performance and fault diagnosis.",
+  "license": "MIT",
+  "keywords": [
+    "inverter",
+    "power electronics",
+    "machine learning",
+    "data leakage",
+    "pvlib",
+    "CEC inverter database"
+  ]
+}
