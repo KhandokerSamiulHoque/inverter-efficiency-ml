@@ -1,5 +1,7 @@
 # Machine Learning for Inverter Efficiency, with a Data-Leakage Audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23537368.svg)](https://doi.org/10.5281/zenodo.23537368)
+
 This is the first stage of an independent research project on machine learning for inverter performance and fault diagnosis, by Khandoker Samiul Hoque (ORCID 0009-0008-0756-2395).
 
 ## What it does
@@ -31,3 +33,6 @@ The script reads `results/cec_inverter_snapshot.csv`, the exact data snapshot us
 - Interpretable models that rank the likely causes of inverter anomalies.
 
 License: MIT (code). CEC/Sandia data are public.
+
+## Archived release
+Version 1.0.0 is archived on Zenodo: [doi:10.5281/zenodo.23537369](https://doi.org/10.5281/zenodo.23537369). To cite the latest version instead, use [doi:10.5281/zenodo.23537368](https://doi.org/10.5281/zenodo.23537368).
